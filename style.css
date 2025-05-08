@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #3d2119;
+    justify-content: center;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Playfair Display", serif;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fcf8edd0;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav{
+    gap: 25px;
+}
+.nav-link{
+    color: #9f3927;
+    border: 0px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    color: white;
+    background-color: #2465b3;
+    border-radius: 15px;
+    transform: scale(1.1);
+}
+.don a{
+    text-decoration: none;
+    color: white;
+}
+.don{
+    padding: 10px;
+    background-color: #3c3434;
+    border: 3px solid #9f3927;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.don:hover{
+    transform: scale(1.1);
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0, 0.6),rgba(0,0,0,0.6)),url(./images/eeraci-phila\ \(33\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titre-hero{
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.sous-titre{
+    color: #fedb9b;
+}
+.btn-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.btn1{
+    text-decoration: none;
+    width: 180px;
+    color: #fedb9b;
+    padding: 20px;
+    border: 3px solid #fedb9b;
+    border-radius: 25px;
+    background-color: #9f3927;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: 0.5s;
+}
+.btn2{
+    text-decoration: none;
+    width: 180px;
+    color: #fedb9b;
+    padding: 20px;
+    border: 3px solid #fedb9b;
+    border-radius: 25px;
+    background-color: #191cdd;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: 0.5s;
+}
+.choice{
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.208);
+    border-radius: 50%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.ou{
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: -2px;
+    margin-left: -2px;
+    color: #3c3434;
+    justify-content: center;
+    align-items: center;  
+}
+#notre-vision{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcf8ed;
+}
+.vision h2{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.icon-img p{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: none;
+}
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.story-left{
+    padding: 100px;
+}
+.past-Gedeon{
+    border: 4px solid;
+    border-radius: 50px;
+    border-color: #fcf8ed;
+    transition: 0.5s;
+    z-index: 50;
+}
+.past-Gedeon:hover{
+    transform: scale(1.1);
+}
+.Papa-Gedeon{
+    border: 5px solid;
+    border-radius: 50px;
+    border-color: #fcf8ed;
+    margin-top: -250px;
+    margin-left: -120px;
+    transition: 0.5s;
+    z-index: 100;
+}
+.Papa-Gedeon:hover{
+    transform: scale(1.1);
+}
+
+.texte-role{
+    font-size: 18px;
+    font-weight: bold;
+    color: #9f3927;
+}
+.description{
+    font-size: 20px;
+    color: #3c3434;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.prog{
+    padding: 70px;
+}
+.image-prog1{
+    border: 5px solid #9f3927;
+    transition: 0.5s;
+}
+.image-prog1:hover{
+    transform: scale(1.1);
+}
+.image-prog2{
+    border: 5px solid #191cdd;
+    transition: 0.5s;
+}
+.image-prog2:hover{
+    transform: scale(1.1);
+}
+.image-prog3{
+    border: 5px solid #dd630b;
+    transition: 0.5s;
+}
+.image-prog3:hover{
+    transform: scale(1.1);
+}
+.image-prog4{
+    border: 5px solid #03a803;
+    transition: 0.5s;
+}
+.image-prog4:hover{
+    transform: scale(1.1);
+}
+#programme{
+    background-color: #fcf8ed;
+}
+#storytelling{
+    background-color: #fcf8ed;
+}
+#extension{
+    background-color: #fcf8ed;
+    margin-top: -50px;
+}
+#verset{
+    background: linear-gradient(rgba(1, 11, 46, 0.907),rgba(1, 5, 50, 0.93)),url(./images/EERACI-PHILA1\ \(75\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+#verset p,h3{
+    color: white;
+    font-size: 21px;
+    text-align: center;
+}
+.extension-h2{
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#visite{
+    background-image: url(./images/EERACI1\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 170px;
+    text-align: center;
+}
+.texte-cta h4{
+    color: #191cdd;
+}
+form div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 60px;
+    margin-top: 30px;
+}
+form div > input{
+    background-color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(180, 140, 73, 0.542);
+}
+form div > textarea{
+    border: none;
+    padding: 20px;
+    height: 190px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 2px 0px rgba(180, 140, 73, 0.542);
+}
+form div > input:focus, form div > textarea:focus, form div > button:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+form button{
+    width: 450px;
+    min-width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 28px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s;
+    background-color: white;
+    box-shadow: 0px 2px 2px 0px rgba(180, 140, 73, 0.542);
+}
+form button:hover{
+    transform: scale(1.1);
+}
+#choix{
+    padding: 150px;
+}
+.encadreur-img{
+    border: 3px solid #fedb9b;
+    border-radius: 20px;
+}
+.vouloir{
+    text-align: center;
+}
+.boutton-choix a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.boutton-choix{
+    margin-top: 30px;
+    background-color: #2465b3;
+    padding: 15px;
+    border: 3px solid #fedb9b;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 800px;
+    margin-left: 250px;
+}
+.boutton-choix:hover{
+    background-color: #9f3927;
+    transform: scale(1.1);
+}
+#dime{
+    background: linear-gradient(rgba(0, 5, 97, 0.907),rgba(2, 10, 97, 0.93)),url(./images/EERACI-PHILA1\ \(75\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.puce{
+    padding: 200px;
+}
+.ensemble-puce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.orange{
+    border: 3px solid #dd630b;
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    color: #3c3434;
+    text-align: center;
+}
+.moov{
+    border: 3px solid #dd630b;
+    border-radius: 15px;
+    background-color: white;
+    color: #3c3434;
+    width: 220px;
+}
+.mtn{
+    border: 3px solid #dd630b;
+    border-radius: 15px;
+    background-color: white;
+    color: #3c3434;
+    width: 220px;
+    padding: 2px;
+}
+.wave{
+    border: 3px solid #dd630b;
+    border-radius: 15px;
+    background-color: white;
+    color: #3c3434;
+    width: 220px;
+    padding: 5px;
+}
+#mariage{
+    background-image: url(./images/EERACI1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px;
+}
+.btn-mariage a{
+    text-decoration: none;
+    color: white;
+}
+.btn-mariage{
+    padding: 20px;
+    border: 3px solid #fedb9b;
+    border-radius: 15px;
+    background-color: #9f3927;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 190px;
+    transition: 0.5s;
+}
+.btn-mariage:hover{
+    transform: scale(1.1);
+}
+#pied{
+    background-color:#3d2119;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+footer h2,span {
+    color: #fedb9b;
+    font-weight: bold;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+}
+footer li{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+footer li:hover{
+    color: #fedb9b;
+}
+
+.footer-bottom p{
+    font-size: 12px;
+}
+.danger{
+    color: #ff2600;
+}
+.reseau-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 30px;
+}
+.bi-facebook{
+    color: #191cdd;
+    background-color: white;
+    border-radius: 100px;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi-youtube{
+    color: #ff0000;
+    background-color: white;
+    border-radius: 10px;
+    height: 15px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-top{
+    margin-bottom: 70px;
+    padding: 50px;
+}
+.copyright{
+    margin-bottom: -25px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    
+    .navbar-nav{
+        gap: 10px;
+    }
+    .don{
+        padding: 5px;
+        width: 100px;
+    }
+    .don a{
+        font-size: 12px;
+    }
+    .btn1, .btn2{
+        width: 120px;
+        padding: 10px;
+        font-size: 12px;
+    }
+    #hero{
+        height: 80vh;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .vision h2{
+        font-size: 25px;
+    }
+    .icon-img {
+        border-bottom: none;
+        border: none;
+      }
+      .description{
+        font-size: 16px;
+    }
+    .ativite-minist{
+        margin-bottom: -350px;
+        row-gap: 10px;
+    }
+    .story{
+        flex-direction: column;
+    }
+    .story-left{
+        padding: 100px;
+    }
+    .past-Gedeon{
+        width: 300px;
+        height: 350px;
+        margin-top: 200px;
+    }
+    .Papa-Gedeon{
+        width: 250px;
+        height: 250px;
+        margin-top: -100px;
+        margin-left: -50px;
+    }
+    .story-right{
+        align-items: center;
+        margin-left: 0px;
+    } 
+    #programme{
+        padding: 0px;
+    }
+    .image-prog1{
+        width: 100%;
+    }
+    .image-prog2{
+        width: 100%;
+    }
+    .image-prog3{
+        width: 100%;
+    }
+    .image-prog4{
+        width: 100%;
+    }
+    #storytelling{
+        padding: 0px;
+        border: 1px solid #fcf8ed;
+    }
+    .image-prog1{
+        width: 100%;
+    }
+    .image-prog2{
+        width: 100%;
+    }
+    .story-right{
+        margin-left: 0px;
+        padding: -10px;
+    }
+    #verset{
+        padding: 50px;
+    }
+    #verset p,h3{
+        font-size: 18px;
+    }
+    .extension-h2{
+        padding: 20px;
+    }
+    #visite{
+        padding: 50px;
+    }
+    .texte-cta h4{
+        font-size: 20px;
+    }
+    form button{
+        width: 100%;
+        min-width: 100%;
+        height: 50px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    form div > input, form div > textarea{
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+    }
+    form div > textarea{
+        height: 150px;
+    }
+    #choix{
+        padding: 25px;
+    }
+    .vouloir .row{
+        gap: 25px;
+    }
+    .boutton-choix{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .puce{
+        padding: 50px;
+    }
+    .ensemble-puce{
+        flex-direction: column;
+        gap: 20px;        
+    }
+    #mariage{
+        padding: 50px;
+    }
+    .btn-mariage{
+        width: 100%;
+        margin-left: 0px;
+    }
+    #pied{
+        padding: 20px;
+    }
+    .footer-top{
+        padding: 20px;
+    }
+
+}
